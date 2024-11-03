@@ -1,0 +1,186 @@
+body {
+    background: #d9d9d9;
+}
+
+.navbar-item {
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-item:hover {
+    transform: scale(1.05);
+}
+
+.navbar-item:active {
+    transform: scale(0.95);
+}
+  
+.tutoring-site {
+  color: #db5757;
+  text-align: left;
+  font-family: 'Inter-ExtraBold', sans-serif;
+  font-size: 40px;
+  line-height: 0px;
+  font-weight: 800;
+  position: relative;
+  height: 36px;
+  text-decoration: none;
+}
+
+.tutoring-site:active{
+    animation: slideaway-logo 2s forwards;
+}
+
+@keyframes slideaway-logo {
+ from{left:0%}
+ to{left:-100%}
+}
+
+.rectangle-about-me{
+background: #b4c4fe;
+width: 203px;
+height: 50px;
+position: absolute;
+left: 30rem;
+top: 2rem;
+animation: slideinaboutme 5s  2s forwards;
+}
+
+.about-me{ 
+    color: #ffffff;
+    text-align: left;
+    font-family: 'KyivTypeSans-Regular', sans-serif;
+    font-size: 40px;
+    line-height: 0px;
+    font-weight: 400;
+    position: absolute;
+    width: 203px;
+    height: 34px;
+    text-decoration: none;
+    left: 30rem;
+    top: 4.5rem;
+    animation: slideinaboutme 5s forwards;
+  }
+  .about-me:active{
+    animation: slideawayaboutme 10s forwards;
+}
+
+
+   @keyframes slideinaboutme {
+    from{left:-100%}
+    to{left:30rem}
+   }
+
+   @keyframes slideawayaboutme {
+    from{left:30rem}
+    to{left:-100%}
+   }
+.rwhatiteach{
+    background: #e3e664;
+width: 186px;
+height: 46px;
+position: absolute;
+left:50rem;
+top: 3rem;
+animation: slideinwhatiteach 10s forwards;
+}
+
+
+.whatiteach{
+    color: #be5f5c;
+    text-align: left;
+    font-family: 'Kurale-Regular', sans-serif;
+    font-size: 20px;
+    line-height: 0px;
+    font-weight: 400;
+    position: relative;
+    width: 170px;
+    height: 31px;
+    left:50rem;
+    top:1rem;
+    animation: slideinwhatiteach 5s forwards;
+}
+.whatiteach:active{
+    animation: slideawaywhatiteach 5s forwards;
+}
+
+@keyframes slideinwhatiteach {
+    from{left:-200%}
+    to{left:50rem}
+   }
+
+   @keyframes slideawaywhatiteach {
+    from{left:50rem}
+    to{left:-200%}
+   }
+
+  .rprice {
+    background: #61a551;
+    width: 120px;
+    height: 49px;
+    position: absolute;
+    left:70rem;
+    top:2rem;
+    animation: slideinprice 10s forwards;
+  }
+
+  .price{
+    color: #ffffff;
+text-align: left;
+font-family: 'Kurale-Regular', sans-serif;
+font-size: 40px;
+line-height: 0px;
+font-weight: 400;
+position: absolute;
+width: 112px;
+height: 32px;
+top: 3rem;
+left: 70rem;
+animation: slideinprice 5s forwards;
+  }
+
+  .price:active{
+    animation: slideawayprice 5s forwards;
+  }
+
+  @keyframes slideinprice {
+    from{left:-100%}
+    to{left:70rem}
+   }
+
+   @keyframes slideawayprice {
+    from{left:70rem}
+    to{left:-100%}
+   }
+
+  .contact-me{
+    color: #d47d7d;
+text-align: left;
+font-family: 'Inter-ExtraBold', sans-serif;
+font-size: 20px;
+line-height: 0px;
+font-weight: 800;
+position: relative;
+width: 127px;
+height: 36px;
+left:80rem;
+  }
+
+  .blog{
+    font-size: xx-small;
+  }
+  .blog:active {
+    animation: slideawayprice 2s delay forwards;
+  }
+ footer{
+  font-size: small;
+ }
+
+ #yearsResult{
+ color: #1c1970
+ }
+
+
+
+ 
+
+ 
